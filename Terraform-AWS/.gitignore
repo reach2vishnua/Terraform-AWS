@@ -1,0 +1,6 @@
+#Ignoring TF State. .terraform  and Json Files
+*.tfstate
+*.terraform/
+*.tfstate.backup
+*.csv
+*.terraform.lock.hcl

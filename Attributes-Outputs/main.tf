@@ -21,3 +21,6 @@ resource "aws_s3_bucket" "mys3" {
 output "mys3bucket" {
   value = aws_s3_bucket.mys3.bucket_domain_name
 }
+output "region" {
+  value = aws_s3_bucket.mys3.region
+}

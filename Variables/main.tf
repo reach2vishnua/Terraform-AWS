@@ -1,16 +1,16 @@
 terraform {
   required_providers {
     aws = {
-        source = "hashicorp/aws"
-        version = "~> 3.60.0"
+      source  = "hashicorp/aws"
+      version = "~> 3.60.0"
     }
   }
 }
 provider "aws" {
-region = var.region  
+  region = var.region
 }
 resource "aws_security_group" "var_demo" {
-  name        = "vishnulabs-variables"
+  name = "vishnulabs-variables"
 
   ingress {
     from_port   = 443

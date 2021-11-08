@@ -1,5 +1,5 @@
 variable "usernumber" {
-    type = number  
+  type = number
 }
 
 variable "elb_name" {
@@ -7,7 +7,7 @@ variable "elb_name" {
 }
 
 variable "az" {
-  type = list
+  type = list(any)
 }
 
 variable "timeout" {

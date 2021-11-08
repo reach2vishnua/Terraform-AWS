@@ -1,13 +1,13 @@
 terraform {
   required_providers {
     aws = {
-        source = "hashicorp/aws"
-        version = "~> 3.60.0"
+      source  = "hashicorp/aws"
+      version = "~> 3.60.0"
     }
   }
 }
 resource "aws_eip" "lb" {
-  vpc      = true
+  vpc = true
 }
 
 output "eip" {

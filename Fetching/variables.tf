@@ -1,7 +1,7 @@
 variable "list" {
-    type = list  
+  type = list(any)
 }
 
 variable "types" {
-    type = map  
+  type = map(any)
 }

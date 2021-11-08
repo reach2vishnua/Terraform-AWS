@@ -4,3 +4,5 @@
 *.tfstate.backup
 *.csv
 *.terraform.lock.
+*newkeys*
+*.pub*

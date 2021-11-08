@@ -30,7 +30,7 @@ variable "ami" {
 
 resource "aws_key_pair" "loginkey" {
   key_name   = "login-key"
-  public_key = file("${path.module}/vishnu.txt")
+  public_key = file("${path.module}/newkeys.pub")
 }
 
 resource "aws_instance" "app-dev" {

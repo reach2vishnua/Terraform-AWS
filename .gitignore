@@ -8,3 +8,4 @@
 *.pub*
 *.pem
 *.txt
+*.tfstate.d

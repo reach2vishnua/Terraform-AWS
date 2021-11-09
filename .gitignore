@@ -6,4 +6,4 @@
 *.terraform.lock.
 *newkeys*
 *.pub*
-*.pem*
+*.pem
